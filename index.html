@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>エニアグラム診断</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <form id="enneagram-test">
+            <h3>エニアグラム診断</h3>
+            <div class="question" id="question1">
+                <p>① 新しいことに挑戦する際、最も重要視することは？</p>
+                <button type="button" class="answer" data-center="本能">とにかく挑戦してみたいという気持ち</button>
+                <button type="button" class="answer" data-center="感情">友人や家族から受けた影響</button>
+                <button type="button" class="answer" data-center="思考">自分にとってプラスになるという考え</button>
+            </div>
+            <div class="question" id="question2">
+                <p>② あなたがリーダーになったら、どのようにチームをまとめますか？</p>
+                <button type="button" class="answer" data-center="本能">チームの将来像を示し、やる気を喚起させる</button>
+                <button type="button" class="answer" data-center="感情">メンバーの連帯感を高め、全員参加の雰囲気をつくる</button>
+                <button type="button" class="answer" data-center="思考">目標と役割を明確にし、行動するメリットを提示する</button>
+            </div>
+            <div class="question" id="question3">
+                <p>③ あなたと周りの意見が分かれた時、どのように対応しますか？</p>
+                <button type="button" class="answer" data-direction="要求する">自分の意見が適切だと思ったら、周りの説得を試みる</button>
+                <button type="button" class="answer" data-direction="退く">多数決に任せて、チームの決定を尊重する</button>
+                <button type="button" class="answer" data-direction="努力して得る">全体の納得感が高まるまで、話し合いを行う</button>
+            </div>
+            <div class="question" id="question4">
+                <p>④ 新しいスキルを習得するなら、どのようなスタイルを求めますか？</p>
+                <button type="button" class="answer" data-direction="要求する">先生やコーチから積極的に指導してもらう</button>
+                <button type="button" class="answer" data-direction="退く">マイペースで学び、過度なプレッシャーをかけない</button>
+                <button type="button" class="answer" data-direction="努力して得る">練習を習慣化して、着実にスキルアップを目指す</button>
+            </div>
+            <div class="question" id="question5">
+                <p>⑤ 会議で意見が求められた時、あなたはどのように対応しますか？</p>
+                <button type="button" class="answer" data-center="本能">重要な問題点を瞬時に判断し、シンプルで明快な意見を述べる</button>
+                <button type="button" class="answer" data-center="感情">周りの感情や反応を読み取り、調和を保つ意見を提案する</button>
+                <button type="button" class="answer" data-center="思考">論理的な根拠やデータに基づいて、納得感の高い意見を述べる</button>
+            </div>
+            <div class="question" id="question6">
+                <p>⑥ あなたが目標に向かって進むとき、最も重視することは？</p>
+                <button type="button" class="answer" data-direction="要求する">ストイックに取り組み、自分なりのベストな結果を目指す</button>
+                <button type="button" class="answer" data-direction="退く">途中であきらめたりしないよう、無理のないペースで進める</button>
+                <button type="button" class="answer" data-direction="努力して得る">結果を急がないで、やるべきことを着実に積み重ねる</button>
+            </div>
+            <button type="submit" class="submit-button">結果を見る</button>
+        </form>
+    </div>
+    <!-- <img src="color_yoko.jpg" alt="CreateLife Coaching Logo" class="footer-img"> -->
+</body>
+</html>
